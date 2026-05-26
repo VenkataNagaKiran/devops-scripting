@@ -1,1 +1,0 @@
-# DevOps Scripting practice
