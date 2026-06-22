@@ -1,0 +1,69 @@
+1. John Smith      | Developer    | New York    | $85000  | Active
+2. Sarah Johnson   | Designer     | London      | $72000  | Active
+3. Mike Williams   | Manager      | Chicago     | $95000  | Active
+4. Emily Brown     | Developer    | San Francisco| $92000 | Active
+5. David Wilson    | Tester       | Boston      | $68000  | Inactive
+6. Lisa Anderson   | Developer    | Seattle     | $88000  | Active
+7. James Taylor    | Designer     | Austin      | $75000  | Active
+8. Jennifer Martin | Manager      | Denver      | $98000  | Inactive
+9. Robert Garcia   | Tester       | Portland    | $65000  | Active
+10. Maria Lopez    | Developer    | Miami       | $90000  | Active
+11. William Clark  | SysAdmin     | Dallas      | $82000  | Active
+12. Patricia Lee   | DevOps       | Atlanta     | $94000  | Active
+13. Daniel Harris  | Developer    | Phoenix     | $87000  | Inactive
+14. Susan Walker   | Designer     | San Diego   | $73000  | Active
+15. Thomas Hall    | Manager      | Houston     | $96000  | Active
+16. Karen Allen    | Tester       | Nashville   | $67000  | Active
+17. Christopher King| Developer   | Columbus    | $89000  | Active
+18. Nancy Wright   | DevOps       | Charlotte   | $91000  | Inactive
+19. Matthew Scott  | SysAdmin     | Minneapolis | $83000  | Active
+20. Betty Adams    | Developer    | Detroit     | $86000  | Active
+
+
+
+=============-> Editing Shortcuts <-================
+i: Insert before cursor
+a: Insert after the cursor
+o: New line below and insert
+O: New line above and insert
+x: Delete character under curosr
+dd: Delete entire line
+3dd: Delete 3 lines
+yy: Copy(yank) current line
+5yy: Copy 5 lines
+p: Paste below
+P: Paste above
+u: Undo
+Ctrl+r: Redo 	
+
+============-> Navigation <-================
+h: Navigate left
+j: Navigate below
+k: Navigate above
+l: Navigate right
+gg: Go to first line
+G: Go to last line
+nG: Go to nth line
+0: Go to beginning of the line
+$: Go to ending of the line
+w: Go to next word
+b: Go to previous word
+Ctrl+d: Scroll down half page
+Ctrl+u: Scroll up half page
+
+=============-> Searching <-==============
+/Developer: Search for "Developer"
+n: Next match
+N: Previous match
+
+=============-> Other commands <-=============
+:set number - Sets line numbers
+:set nonumber - Hide line numbers
+:%d - Delete all the lines
+:w - Save
+:q - Quit
+:wq - Save and quit
+:q! - Quit without saving
+ZZ - Save and Quit (short cut)
+
+
