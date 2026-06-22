@@ -2,23 +2,33 @@
 
 # we are going to check the health status in this script
 
-set -x # to run the commands in debug mode
+# set -x # to run the commands in debug mode
 
 set -e # returns the code immediately if error occurs
 
 set -o pipefail # set -e does not work in case of pipes, so set -o useful to handle pipes
 
-# checking disk space
+echo "===================="
+echo "checking disk space"
+echo "===================="
 df -h
 
-# checking memory usage 
+echo "======================="
+echo "checking memory usage "
+echo "========================"
 free -m
 
-# checking the running processes and returning the process ids of processes named root
+echo "====================================================================================="
+echo "checking the running processes and returning the process ids of processes named root"
+echo "====================================================================================="
 ps -ef | grep root | awk '{print $2}'
 
-# disabling the debug mode
-set +x
+# echo "========================="
+# echo "disabling the debug mode"
+# echo "========================"
+# set +x
 
-# checking the direcotory utilization
+echo "===================================="
+echo "checking the direcotory utilization"
+echo "===================================="
 du -h
