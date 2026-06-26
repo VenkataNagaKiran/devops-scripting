@@ -16,7 +16,7 @@ df -h
 echo "======================="
 echo "checking memory usage "
 echo "========================"
-free -m
+free -h
 
 echo "====================================================================================="
 echo "checking the running processes and returning the process ids of processes named root"
