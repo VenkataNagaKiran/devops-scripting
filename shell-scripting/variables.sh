@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e 
+
+
 echo ""
 echo "Basic Variables"
 echo "----------------"
@@ -12,6 +14,9 @@ echo "Age: $AGE"
 echo "City: $CITY"
 echo "Role: $ROLE"
 # Environment variables
+
+
+
 echo ""
 echo "Environment Variables"
 echo "----------------------"
@@ -23,6 +28,9 @@ echo "Shell: $SHELL"
 #echo "Path: $PATH"
 echo "Os Type: $OSTYPE"
 # Command substitutions
+
+
+
 echo ""
 echo "Commnad substitutions"
 echo "---------------------"
@@ -43,6 +51,7 @@ echo "Country: $COUNTRY (cannot be changed)"
 echo "PI: $PI (cannot be changed)"
 #COUNTRY="SRI LANKA" #causes error (COUNTRY: readonly variable)
 
+
 echo ""
 echo "String Operations"
 echo "-----------------"
@@ -60,7 +69,6 @@ echo "First character upper: ${GREETING^}"
 
 
 
-set -e
 # Inserting an array
 echo ""
 echo "Using Array variable"
